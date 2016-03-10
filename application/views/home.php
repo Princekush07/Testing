@@ -96,7 +96,7 @@
     <hr>
 
     <footer>
-        <p>&copy; 2015</p>
+        <p>&copy; <?php echo date('Y'); ?></p>
     </footer>
 </div>
 <!-- /container -->
@@ -207,31 +207,6 @@
                     <li>Twitter Bootstrap</li>
                     <li>PHP (with Codeigniter framework)</li>
                 </ol>
-
-                <hr>
-
-                <p>
-                    <strong>INSTALLATION</strong>
-                </p>
-
-                <ol>
-                    <li>Create a database using the sqldump file (database_dump.sql).</li>
-                    <li>Make sure to have the correct database settings in ./application/config/database.php</li>
-                    <li>Have Apache mod_rewrite enabled</li>
-                    <li>Copy .htaccess.example to .htaccess and modify configurations</li>
-                </ol>
-
-                <hr>
-
-                <p>
-                    <strong>RUNNING SCHEDULER AS CRON</strong>
-                </p>
-
-                <p>Create a cron entry that runs every 5 minutes using this command:</p>
-                <p><code>*/5 * * * * /usr/local/bin/php /path/to/epam/index.php notifier cron</code></p>
-                <p>
-                    Note: Make sure email server is configured correctly. You may use this <a target="_blank" href="https://www.codeigniter.com/userguide2/libraries/email.html">link</a> for reference.
-                </p>
             </div>
         </div>
         <!-- /.modal-content -->

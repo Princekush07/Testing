@@ -11,11 +11,9 @@ Technologies used:
 
 ## Installation
 
-1. Create a database using the sqldump file (database_dump.sql).
-2. Make sure to have the correct database settings in ./application/config/database.php
-3. Have Apache mod_rewrite enabled
-4. Copy *.htaccess.example* to *.htaccess* and modify configurations
-
+1. Create a database using the sqldump file *database_dump.sql*.
+2. Have Apache ```mod_rewrite``` enabled
+3. Copy *.htaccess.example* to *.htaccess* and modify environment and database settings
 
 ## Running scheduler as Cron
 
