@@ -1,0 +1,30 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.modal.fade .modal-dialog {
+   z-index: 1041 !important;
+}
+
+/* Add/Edit Modal */
+div#add-edit div.modal-footer button.update {
+   margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
