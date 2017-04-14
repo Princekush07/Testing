@@ -5,6 +5,7 @@ RewriteRule ^(.*)$ index.php/$1 [L]
 
 # Environment
 SetEnv CI_ENV development
+SetEnv BASE_URL http://localhost/
 
 # Database Configurations
 SetEnv DB_USERNAME dbuser
