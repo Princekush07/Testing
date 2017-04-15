@@ -13,6 +13,7 @@ Technologies used:
 1. Create a database using the sqldump file *database_dump.sql*.
 2. Have Apache ```mod_rewrite``` enabled
 3. Copy *.htaccess.example* to *.htaccess* and modify environment and database settings
+4. Run ```bower install``` from the command line. This assumes that you have [bower](https://bower.io/) installed. 
 
 ## Running scheduler as Cron
 
