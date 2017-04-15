@@ -4,6 +4,10 @@
    Author's custom styles
    ========================================================================== */
 
+#flower-pots-table {
+    width: 100%;
+}
+
 .modal.fade .modal-dialog {
    z-index: 1041 !important;
 }

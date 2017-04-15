@@ -26,8 +26,7 @@
         }
     </style>
 
-    <link rel="stylesheet" href="<?php echo asset_url() . 'bower_components/datatables/media/css/jquery.dataTables.css'; ?>">
-    <link rel="stylesheet" href="<?php echo asset_url() . 'bower_components/datatables/media/css/dataTables.bootstrap.css'; ?>">
+    <link rel="stylesheet" href="<?php echo asset_url() . 'bower_components/datatables/media/css/dataTables.bootstrap.css'; ?>">    
     <link rel="stylesheet" href="<?php echo asset_url() . 'bower_components/toastr/toastr.css'; ?>">
     <link rel="stylesheet" href="<?php echo asset_url() . 'bower_components/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.css'; ?>">
     <link rel="stylesheet" href="<?php echo asset_url() . 'bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.css' ?>">    
@@ -289,7 +288,8 @@
 </script>
 
 <script src="<?php echo asset_url() . 'bower_components/jquery/dist/jquery.js'; ?>"></script>
-<script src="<?php echo asset_url() . 'bower_components/datatables/media/js/jquery.dataTables.js' ?>"></script>
+<script src="<?php echo asset_url() . 'bower_components/datatables/media/js/jquery.dataTables.js'; ?>"></script>
+<script src="<?php echo asset_url() . 'bower_components/datatables/media/js/dataTables.bootstrap.js'; ?>"></script>
 <script src="<?php echo asset_url() . 'bower_components/jquery-timeago/jquery.timeago.js'; ?>"></script>
 <script src="<?php echo asset_url() . 'bower_components/toastr/toastr.js' ?>"></script>
 <script src="<?php echo asset_url() . 'bower_components/bootstrap/dist/js/bootstrap.js' ?>"></script>
