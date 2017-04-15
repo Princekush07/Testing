@@ -22,4 +22,4 @@ Create a cron entry that runs every 5 minutes using this command:
 */5 * * * * /usr/local/bin/php /path/to/epam/index.php notifier cron
 ```
 
-Note: Make sure email server is configured correctly. You may use this [link](https://www.codeigniter.com/userguide2/libraries/email.html) for reference.
+Note: Make sure email server is configured correctly. You may use this [link](https://codeigniter.com/user_guide/libraries/email.html) for reference.
