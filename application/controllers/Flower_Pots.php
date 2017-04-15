@@ -62,7 +62,8 @@ class Flower_Pots extends CI_Controller
             'name' => $this->input->post('name'),
             'water_morning' => $this->input->post('water_morning')? $this->input->post('water_morning') : 0,
             'water_noon' => $this->input->post('water_noon')? $this->input->post('water_noon') : 0,
-            'water_afternoon' => $this->input->post('water_afternoon')? $this->input->post('water_afternoon') : 0
+            'water_afternoon' => $this->input->post('water_afternoon')? $this->input->post('water_afternoon') : 0,
+            'updated_at' => '0000-00-00 00:00:00'
         );
 
         if ($id = $this->flower_pot->insert($data)) {
