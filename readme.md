@@ -7,7 +7,7 @@ Technologies used:
 * Javascript
 * jQuery
 * Twitter Bootstrap
-* PHP (with Codeigniter framework)
+* PHP (with Codeigniter framework v3.1.4)
 
 ## Installation
 
