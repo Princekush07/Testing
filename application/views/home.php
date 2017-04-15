@@ -6,7 +6,7 @@
 <!--[if IE 8]>
 <html ng-app="epam" class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html ng-app="epam" class="no-js" lang=""> <!--<![endif]-->
+<html class="no-js" lang=""> <!--<![endif]-->
 
 <head>
     <meta charset="utf-8">
@@ -16,7 +16,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-    <?php echo css('bootstrap.min.css'); ?>
+    <link rel="stylesheet" href="<?php echo asset_url() . 'bower_components/bootstrap/dist/css/bootstrap.css'; ?>">    
+    <?php echo css('bootstrap-theme.css'); ?>
 
     <style>
         body {
@@ -25,19 +26,16 @@
         }
     </style>
 
-    <?php echo css('datatables.min.css'); ?>
-    <?php echo css('toastr.min.css'); ?>
-    <?php echo css('bootstrap-switch.min.css'); ?>
-    <?php echo css('bootstrap-datetimepicker.min.css'); ?>
+    <link rel="stylesheet" href="<?php echo asset_url() . 'bower_components/datatables/media/css/jquery.dataTables.css'; ?>">
+    <link rel="stylesheet" href="<?php echo asset_url() . 'bower_components/datatables/media/css/dataTables.bootstrap.css'; ?>">
+    <link rel="stylesheet" href="<?php echo asset_url() . 'bower_components/toastr/toastr.css'; ?>">
+    <link rel="stylesheet" href="<?php echo asset_url() . 'bower_components/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.css'; ?>">
+    <link rel="stylesheet" href="<?php echo asset_url() . 'bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.css' ?>">    
     <?php echo css('main.css'); ?>
-
-    <?php echo js('vendor/modernizr-2.8.3-respond-1.4.2.min.js'); ?>
-
-    <script>
-        var baseUrl = '<?php echo base_url(); ?>';
-    </script>
+    
+    <script src="<?php echo asset_url() . 'vendor/modernizr/modernizr-2.8.3-respond-1.4.2.min.js'; ?>"></script>    
 </head>
-<body ng-controller="flowerPots">
+<body>
 <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
     your browser</a> to improve your experience.</p>
@@ -286,14 +284,19 @@
 </div>
 <!-- /modals -->
 
-<?php echo js('vendor/jquery-1.11.2.min.js'); ?>
-<?php echo js('vendor/datatables.min.js'); ?>
-<?php echo js('vendor/jquery.timeago.js'); ?>
-<?php echo js('vendor/toastr.min.js'); ?>
-<?php echo js('vendor/bootstrap.min.js'); ?>
-<?php echo js('vendor/bootstrap-switch.min.js'); ?>
-<?php echo js('vendor/moment.min.js'); ?>
-<?php echo js('vendor/bootstrap-datetimepicker.min.js'); ?>
+<script>
+    var baseUrl = '<?php echo base_url(); ?>';
+</script>
+
+<script src="<?php echo asset_url() . 'bower_components/jquery/dist/jquery.js'; ?>"></script>
+<script src="<?php echo asset_url() . 'bower_components/datatables/media/js/jquery.dataTables.js' ?>"></script>
+<script src="<?php echo asset_url() . 'bower_components/jquery-timeago/jquery.timeago.js'; ?>"></script>
+<script src="<?php echo asset_url() . 'bower_components/toastr/toastr.js' ?>"></script>
+<script src="<?php echo asset_url() . 'bower_components/bootstrap/dist/js/bootstrap.js' ?>"></script>
+<script src="<?php echo asset_url()  . 'bower_components/bootstrap-switch/dist/js/bootstrap-switch.js'?>"></script>
+<script src="<?php echo asset_url() . 'bower_components/moment/moment.js' ?>"></script>
+<script src="<?php echo asset_url() . 'bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js' ?>"></script>
+
 <?php echo js('app.js'); ?>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

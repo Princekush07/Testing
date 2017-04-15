@@ -1,0 +1,27 @@
+{
+  "name": "codeigniter_ajax_crud",
+  "homepage": "https://github.com/jgabuya/codeigniter-ajax-crud",
+  "description": "This app contains a CRUD interface for flower pots as well a notifier on when to water the flowers.",
+  "main": "",
+  "authors": [
+    "Jirffey Gabuya"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "datatables": "datatable#^1.10.13",
+    "toastr": "^2.1.3",
+    "bootstrap-switch": "^3.3.4",
+    "eonasdan-bootstrap-datetimepicker": "bootstrap3-datetimepicker#^4.17.47",
+    "jquery-timeago": "timeago#^1.5.4",
+    "jquery": "^3.2.1"
+  }
+}

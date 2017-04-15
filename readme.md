@@ -1,7 +1,6 @@
 ## About
 
-This app contains a CRUD interface for flower pots as well a notifier on when to water
-the flowers.
+This app contains a CRUD interface for flower pots as well a notifier on when to water the flowers.
 
 Technologies used:
 * Javascript
